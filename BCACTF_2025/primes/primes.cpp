@@ -12,8 +12,10 @@ int main() {
          }
        }
    }
+   int dem = 0;
    for (int i:a) {
-     if (!prime[i]) cout<<i<<",";
+     if (!prime[i]) printf("%c", dem);
+     dem++;
    }
    return 0;
 }
